@@ -1,8 +1,6 @@
 import logging
-import requests
 from typing import Callable
-from xml.dom import minidom
-
+#import defusedxml.minidom
 logger = logging.getLogger(__name__)
 
 
@@ -18,10 +16,9 @@ def prettify_and_log_xml(
 
 
 def prettify(xml_str: str) -> bytes:
-    xml_as_pretty_printed_bytes_obj = \
-        minidom.parseString(xml_str).toprettyxml(indent='  ', encoding='UTF-8')
 
-    return xml_as_pretty_printed_bytes_obj
+   def greet():
+    print( 'XML_File')
 
 
 def log_xml_string(
