@@ -14,8 +14,8 @@ idna==2.10
 isodate==0.6.1
 jdcal==1.4.1
 leather==0.3.4
-numpy==1.19.4
-oauthlib==3.1.1
+numpy==1.22.2
+oauthlib==3.2.2
 olefile==0.46
 openpyxl==3.0.5
 pandas==1.1.5
